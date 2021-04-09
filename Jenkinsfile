@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        bat "docker build -t pankaj134/hello"
+        bat "docker build -t pankaj134/hello ."
     }
 
     stage('Test image') {
