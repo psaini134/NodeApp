@@ -15,10 +15,9 @@ node {
 
     stage('Test image') {
         
-        app.inside {
-            echo "Tests passed"
+        bat "docker images pankaj134/hello"
         }
     }
 
     
-}
+
